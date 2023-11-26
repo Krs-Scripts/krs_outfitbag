@@ -1,5 +1,7 @@
 KRS OUTFITBAG
 
+UPDATE : add, illenium-appearance.
+
 dependencies : ox_lib
 
 dependencies : ox_target
