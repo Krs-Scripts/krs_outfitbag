@@ -7,9 +7,17 @@ local function openOutfitBag()
     local playerPed = cache.ped or PlayerPedId()
 
     TaskStartScenarioInPlace(playerPed, "CODE_HUMAN_MEDIC_TEND_TO_DEAD")
-    --exports['krs-appearance']:openWardrobe()
-    TriggerEvent("illenium-appearance:client:openClothingShopMenu2")
+
+    if Config.Appearance == 'illenium-appearance' then
+        TriggerEvent("illenium-appearance:client:openOutfitMenu", function()
+            OpenMenu(nil, "outfit")
+        end)
+    elseif Config.Appearance == 'fivem-appearance' then
+        exports['fivem-appearance']:openWardrobe()
+    end
 end
+
+
 
 local function placeOutfitBag()
 
