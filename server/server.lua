@@ -3,6 +3,18 @@
 -- ██ ██ ██▄▄▄▀▀█ ▀▀ ██ ▄▄▀██ █████ ▄▄▄████ ████ ████ ▄▄▄██ █ █ 
 -- ██▄▀▀▄██ ▀▀▀ █ ██ ██ ▀▀ ██ ▀▀ ██ ▀▀▀███▀ ▀███ ████ ▀▀▀██ ███ 
 -- ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-ESX.RegisterUsableItem(Config.Items, function(source)
-    TriggerClientEvent("krs_outfitbag:placeBag", source)
+
+local ox = exports.ox_inventory
+
+local outfitbag = 'outfitbag'
+
+ESX.RegisterUsableItem(outfitbag, function(source)
+    local src = source
+    ox:RemoveItem(src, outfitbag, 1)
+    TriggerClientEvent('krs_outfitbag:removeItems', src, outfitbag)
+end)
+
+RegisterNetEvent('krs_outfitbag:addItems', function(source)
+    local src = source
+    ox:AddItem(src, outfitbag, 1)
 end)

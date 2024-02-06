@@ -17,8 +17,6 @@ local function openOutfitBag()
     end
 end
 
-
-
 local function placeOutfitBag()
 
     lib.requestAnimDict("pickup_object")
@@ -34,7 +32,7 @@ local function placeOutfitBag()
 
     outfitbag = CreateObjectNoOffset(Config.Prop, coords.x, coords.y, coords.z, true, false)
     PlaceObjectOnGroundProperly(outfitbag)
-
+    
 
     exports.ox_target:addLocalEntity(outfitbag, {
         {
@@ -54,11 +52,12 @@ local function placeOutfitBag()
                 Wait(900)
                 DeleteEntity(data.entity)
                 ClearPedTasks(playerPed)
+                TriggerServerEvent('krs_outfitbag:addItems', 1)
             end
         },
     })
 end
 
-RegisterNetEvent("krs_outfitbag:placeBag", function()
+RegisterNetEvent("krs_outfitbag:removeItems", function()
     placeOutfitBag()
 end)
