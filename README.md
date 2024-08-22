@@ -6,10 +6,6 @@
 
 **Possibility to choose the fivem-appearance or the illenium appearance**
 
-```diff
-+Fixed all
-```
-
 * ox_inventory/data/items.lua
 
 ```lua
