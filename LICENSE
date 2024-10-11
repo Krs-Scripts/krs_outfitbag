@@ -2,20 +2,24 @@ MIT License
 
 Copyright (c) 2024 Krs-Scripts
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of these scripts and associated documentation files (the "Scripts"), to deal in the Scripts without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Scripts, and to permit persons to whom the Scripts are furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Definitions.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+"License" shall mean the terms and conditions for use, reproduction, and distribution as defined in Sections 1 through 9 of this document.
+"Licensor" shall mean the copyright owner or entity authorized to grant the License.
+"Legal Entity" shall mean the union of the acting entity and all other entities under common control with that entity.
+"You" or "Your" shall mean an individual or Legal Entity exercising permissions granted by this License.
+"Source" form shall mean the preferred form for making modifications, including source code and configuration files.
+"Object" form shall mean any form resulting from mechanical transformations of the Source form, including compiled object code and generated documentation.
+Grant of Copyright License.
+Each Contributor hereby grants you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, perform, sublicense, and distribute the Scripts, including derivative works.
+
+Redistribution.
+You may reproduce and distribute copies of the Scripts or derivative works thereof in any medium, provided that you meet the following conditions:
+
+(a) You provide a copy of this License to other recipients;
+(b) You provide prominent notices indicating changes to the original files;
+(c) You retain all copyright, patent, trademark, and attribution notices in the Source form.
+Disclaimer of Warranty.
+The Scripts are provided "AS IS", without warranty of any kind, express or implied. You assume all risks associated with using or distributing the Scripts.
